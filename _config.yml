@@ -40,7 +40,7 @@ delete-delay: 5000
 lines: # You can add HTML Tags in the Text
   - text: "Weekend CTF Players."
   - text: "Ora CTF, yo sakau"
-me-img: "/img/jetpacktocat.png"
+me-img: "/img/sni.jpeg"
 # To use github profile pic uncomment the following line and replace 'user_name'
 # with your github user name.
 
