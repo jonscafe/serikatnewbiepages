@@ -16,11 +16,11 @@ google-tracking-id: "UA-XXXXXXXX-X"
 # HTML Head #
 #############
 lang: "en"
-author: "John Smith"
-title: "{ John Smith }"
+author: "SNI"
+title: "Serikat Newbie Indonesia"
 description: 
-  "Blog and website of John Smith, blogging mainly for tech. Opinions expressed are mine."
-keywords: "smith, jones, personal, jekyll, theme"
+  "Serikat Newbie Indonesia (SNI) is a thriving CTF team from Indonesia, consisting of 12 members, with 9 actively participating in competitions."
+keywords: "SNI, CTF, Indonesia"
 favicon: "/img/favicon.ico"
 ################
 # Header layout #
@@ -38,8 +38,8 @@ type-speed: 10
 start-delay: 200
 delete-delay: 5000
 lines: # You can add HTML Tags in the Text
-  - text: "The lower you fall, the higher you'll fly."
-  - text: "Where’s your will to be weird?"
+  - text: "Weekend CTF Players."
+  - text: "Ora CTF, yo sakau"
 me-img: "/img/jetpacktocat.png"
 # To use github profile pic uncomment the following line and replace 'user_name'
 # with your github user name.
