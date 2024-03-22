@@ -4,7 +4,7 @@
 <style>
     /* CSS for Member Profiles */
     .profile {
-        width: 22%;
+        width: calc(25% - 20px); /* Set the width to 25% minus margins */
         margin: 10px;
         padding: 10px;
         border: 1px solid #ccc;
@@ -14,37 +14,39 @@
     }
 
     .profile h1 {
-    margin: 5px 0;
-    font-size: 15px;
-    overflow-wrap: break-word;
+        margin: 5px 0;
+        font-size: 15px;
+        overflow-wrap: break-word;
     }
 
     .profile h2 {
-    margin: 0 0 5px;
-    font-size: 12px;
-    overflow-wrap: break-word;
+        margin: 0 0 5px;
+        font-size: 12px;
+        overflow-wrap: break-word;
     }
 
     .profile p {
-    margin: 5px 0;
-    font-size: 12px;
-    overflow-wrap: break-word;
+        margin: 5px 0;
+        font-size: 12px;
+        overflow-wrap: break-word;
     }
 
     .profile img {
-    width: 50px; /* Set image width */
-    height: 50px; /* Set image height */
+        width: 150px; /* Set image width */
+        height: 150px; /* Set image height */
+        object-fit: cover; /* Ensure images maintain aspect ratio and cover the entire space */
+        border-radius: 50%; /* Make the images round */
     }
 
     @media screen and (max-width: 768px) {
         .profile {
-            width: 45%;
+            width: calc(45% - 20px); /* Adjust width for smaller screens */
         }
     }
 
     @media screen and (max-width: 480px) {
         .profile {
-            width: 100%;
+            width: calc(100% - 20px); /* Adjust width for even smaller screens */
         }
     }
 </style>
@@ -52,7 +54,7 @@
 <body>
 
     <!-- Members Section Start -->
-    <section id="#members" class="container content-section text-center">
+    <section id="members" class="container content-section text-center">
         <div class="row">
             <div class="col-md-12">
                 <h2>Meet Our Team</h2>
@@ -92,10 +94,6 @@
                 const image = document.createElement("img");
                 image.src = player.image;
                 image.alt = `${player.name}'s profile picture`;
-
-                // Set image width and height
-                image.width = 50;
-                image.height = 50;
 
                 const name = document.createElement("h1");
                 name.textContent = player.name;
