@@ -86,15 +86,18 @@ pocket-share: True
 vkontakte-share: True
 disqus-shortname: "personal-jekyll-theme"
 syntax-highlight: True
+#####################################################
 ############
 # Timeline #
 ############
-events:
-  - image: "/img/timeline/spidertocat.png"
-    date: "January 2024 - Today"
-    description: "Just established lol!"
-# First image of the Timeline
-timeline-img: "/img/timeline/default.png"
+# events:
+#   - image: "/img/timeline/spidertocat.png"
+#     date: "January 2024 - Today"
+#     description: "Just established lol!"
+# # First image of the Timeline
+# timeline-img: "/img/timeline/default.png"
+
+##################################################
 ###########
 # Contact #
 ###########
@@ -111,7 +114,7 @@ pgp: False
 # if the author_blurb is not set, then this feature is skipped
 author_blurb: 
   "Serikat Newbie Indonesia (SNI) is a thriving CTF team from Indonesia, consisting of 12 members, with 9 actively participating in competitions."
-author_blurb_image: "/img/author.png"
+author_blurb_image: "/img/sni.jpeg"
 ##################
 # Social Buttons #
 ##################
