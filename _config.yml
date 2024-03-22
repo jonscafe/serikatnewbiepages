@@ -21,11 +21,11 @@ title: "Serikat Newbie Indonesia"
 description: 
   "Serikat Newbie Indonesia (SNI) is a thriving CTF team from Indonesia, consisting of 12 members, with 9 actively participating in competitions."
 keywords: "SNI, CTF, Indonesia"
-favicon: "/img/favicon.ico"
+favicon: "/img/sni.ico"
 ################
 # Header layout #
 ################
-black-favicon: "/img/favicon.ico"
+black-favicon: "/img/sni.ico"
 background-img: "../img/intro-bg.jpg"
 ##############################
 # Dynamic Text on the Header #
