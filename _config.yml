@@ -138,8 +138,8 @@ err-404-img: "/img/labtocat.png"
 # Sections shown in the index page
 pages_list:
   About: "about"
+  Members: "members"
   Blog: "latest-post"
-  Timeline: "timeline"
   Contact: "contact"
 # Exclusion list from the generated _site
 exclude:
