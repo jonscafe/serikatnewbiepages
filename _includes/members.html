@@ -1,7 +1,6 @@
 <!doctype html>
 <html lang="{{ site.lang }}">
 
-
 <style>
     /* CSS for Member Profiles */
     .profile {
@@ -30,6 +29,11 @@
     margin: 5px 0;
     font-size: 12px;
     overflow-wrap: break-word;
+    }
+
+    .profile img {
+    width: 50px; /* Set image width */
+    height: 50px; /* Set image height */
     }
 
     @media screen and (max-width: 768px) {
@@ -88,6 +92,10 @@
                 const image = document.createElement("img");
                 image.src = player.image;
                 image.alt = `${player.name}'s profile picture`;
+
+                // Set image width and height
+                image.width = 50;
+                image.height = 50;
 
                 const name = document.createElement("h1");
                 name.textContent = player.name;
