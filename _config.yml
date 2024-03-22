@@ -120,13 +120,11 @@ author_blurb_image: "/img/sni.jpeg"
 ##################
 social:
   - icon: "github"
-    url: "https://github.com/"
+    url: "https://github.com/serikatnewbie"
   - icon: "linkedin-in"
-    url: "https://www.linkedin.com"
-  - icon: "x-twitter"
-    url: "https://twitter.com/"
+    url: "https://www.linkedin.com/jomrbn"
   - icon: "rss"
-    url: "https://serikatnewbie.me/personal-jekyll-theme/feed.xml"
+    url: "https://ctftime.org/team/279998"
 ############
 # 404 page #
 ############
