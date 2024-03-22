@@ -139,6 +139,7 @@ err-404-img: "/img/labtocat.png"
 pages_list:
   About: "about"
   Members: "members"
+  Achievements: "achievements"
   Blog: "latest-post"
   Contact: "contact"
 # Exclusion list from the generated _site
