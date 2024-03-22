@@ -4,23 +4,23 @@
 /* 
 #2D353B  background
 #859289  comments / secondary content
-#D3C6AA  body text / default code / primary content
+#aaadd3  body text / default code / primary content
 #83C092  constants
 #DBBC7F  regex, special keywords
 #7FBBB3  reserved keywords
 #2aa198  strings, numbers
-#E69875  operators, other keywords
+#7e75e6  operators, other keywords
 */
 
 .language-plaintext {
   background-color: #2d353b;
-  color: #d3c6aa;
+  color: #aaadd3;
   font-size: 80%;
 }
 
 .highlight {
   background-color: #2d353b;
-  color: #d3c6aa;
+  color: #aaadd3;
   font-size: 95%;
   border: 0px;
   padding: 0.5em;
@@ -32,72 +32,72 @@
   color: #859289;
 } /* Comment */
 .highlight .err {
-  color: #d3c6aa;
+  color: #aaadd3;
 } /* Error */
 .highlight .g {
-  color: #d3c6aa;
+  color: #aaadd3;
 } /* Generic */
 .highlight .k {
-  color: #e69875;
+  color: #7e75e6;
 } /* Keyword */
 .highlight .l {
-  color: #d3c6aa;
+  color: #aaadd3;
 } /* Literal */
 .highlight .n {
-  color: #d3c6aa;
+  color: #aaadd3;
 } /* Name */
 .highlight .o {
-  color: #e69875;
+  color: #7e75e6;
 } /* Operator */
 .highlight .x {
   color: #83c092;
 } /* Other */
 .highlight .p {
-  color: #d3c6aa;
+  color: #aaadd3;
 } /* Punctuation */
 .highlight .cm {
   color: #859289;
 } /* Comment.Multiline */
 .highlight .cp {
-  color: #e69875;
+  color: #7e75e6;
 } /* Comment.Preproc */
 .highlight .c1 {
   color: #859289;
 } /* Comment.Single */
 .highlight .cs {
-  color: #e69875;
+  color: #7e75e6;
 } /* Comment.Special */
 .highlight .gd {
   color: #2aa198;
 } /* Generic.Deleted */
 .highlight .ge {
-  color: #d3c6aa;
+  color: #aaadd3;
   font-style: italic;
 } /* Generic.Emph */
 .highlight .gr {
-  color: #dbbc7f;
+  color: #7e75e6;
 } /* Generic.Error */
 .highlight .gh {
   color: #83c092;
 } /* Generic.Heading */
 .highlight .gi {
-  color: #e69875;
+  color: #7e75e6;
 } /* Generic.Inserted */
 .highlight .go {
-  color: #d3c6aa;
+  color: #aaadd3;
 } /* Generic.Output */
 .highlight .gp {
-  color: #d3c6aa;
+  color: #aaadd3;
 } /* Generic.Prompt */
 .highlight .gs {
-  color: #d3c6aa;
+  color: #aaadd3;
   font-weight: bold;
 } /* Generic.Strong */
 .highlight .gu {
   color: #83c092;
 } /* Generic.Subheading */
 .highlight .gt {
-  color: #d3c6aa;
+  color: #aaadd3;
 } /* Generic.Traceback */
 .highlight .kc {
   color: #83c092;
@@ -106,10 +106,10 @@
   color: #7fbbb3;
 } /* Keyword.Declaration */
 .highlight .kn {
-  color: #e69875;
+  color: #7e75e6;
 } /* Keyword.Namespace */
 .highlight .kp {
-  color: #e69875;
+  color: #7e75e6;
 } /* Keyword.Pseudo */
 .highlight .kr {
   color: #7fbbb3;
@@ -118,7 +118,7 @@
   color: #dbbc7f;
 } /* Keyword.Type */
 .highlight .ld {
-  color: #d3c6aa;
+  color: #aaadd3;
 } /* Literal.Date */
 .highlight .m {
   color: #2aa198;
@@ -127,7 +127,7 @@
   color: #2aa198;
 } /* Literal.String */
 .highlight .na {
-  color: #d3c6aa;
+  color: #aaadd3;
 } /* Name.Attribute */
 .highlight .nb {
   color: #b58900;
@@ -151,16 +151,16 @@
   color: #7fbbb3;
 } /* Name.Function */
 .highlight .nl {
-  color: #d3c6aa;
+  color: #aaadd3;
 } /* Name.Label */
 .highlight .nn {
-  color: #d3c6aa;
+  color: #aaadd3;
 } /* Name.Namespace */
 .highlight .nx {
-  color: #d3c6aa;
+  color: #aaadd3;
 } /* Name.Other */
 .highlight .py {
-  color: #d3c6aa;
+  color: #aaadd3;
 } /* Name.Property */
 .highlight .nt {
   color: #7fbbb3;
@@ -169,10 +169,10 @@
   color: #7fbbb3;
 } /* Name.Variable */
 .highlight .ow {
-  color: #e69875;
+  color: #7e75e6;
 } /* Operator.Word */
 .highlight .w {
-  color: #d3c6aa;
+  color: #aaadd3;
 } /* Text.Whitespace */
 .highlight .mf {
   color: #2aa198;
@@ -193,7 +193,7 @@
   color: #2aa198;
 } /* Literal.String.Char */
 .highlight .sd {
-  color: #d3c6aa;
+  color: #aaadd3;
 } /* Literal.String.Doc */
 .highlight .s2 {
   color: #2aa198;
@@ -202,7 +202,7 @@
   color: #83c092;
 } /* Literal.String.Escape */
 .highlight .sh {
-  color: #d3c6aa;
+  color: #aaadd3;
 } /* Literal.String.Heredoc */
 .highlight .si {
   color: #2aa198;
@@ -211,7 +211,7 @@
   color: #2aa198;
 } /* Literal.String.Other */
 .highlight .sr {
-  color: #dbbc7f;
+  color: #7f81db;
 } /* Literal.String.Regex */
 .highlight .s1 {
   color: #2aa198;
