@@ -1,10 +1,33 @@
 <!doctype html>
 <html lang="{{ site.lang }}">
 
-{% include head.html %}
+
+<style>
+    /* CSS for Member Profiles */
+    .profile {
+        width: 22%;
+        margin: 10px;
+        padding: 10px;
+        border: 1px solid #ccc;
+        text-align: center;
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    @media screen and (max-width: 768px) {
+        .profile {
+            width: 45%;
+        }
+    }
+
+    @media screen and (max-width: 480px) {
+        .profile {
+            width: 100%;
+        }
+    }
+</style>
 
 <body>
-    {% include navigation.html %}
 
     <!-- Members Section Start -->
     <section id="team" class="container content-section text-center">
@@ -18,10 +41,6 @@
         </div>
     </section>
     <!-- Members Section End -->
-
-    {% include footer.html %}
-
-    {% include js.html %}
 
     <script>
         document.addEventListener("DOMContentLoaded", function () {
