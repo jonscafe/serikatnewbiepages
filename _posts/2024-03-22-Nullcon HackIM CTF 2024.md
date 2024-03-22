@@ -19,7 +19,7 @@ p::first-line {
 # Nullcon HackIM CTF 2024, Berlin
 
 ### ![chall-sc](https://hackmd.io/_uploads/HyDSeGP0T.png)
-``
+
 On 14th and 15th March 2024, `SNI` participated in the `Nullcon HackIM CTF 2024`. We are very grateful to announce that we achieved the `3rd rank` on the leaderboard. Additionally, we secured the `2nd rank` specifically in the `Online Category` leaderboard. These are our writeups for the challenges that we solved during the CTF.
 
 
